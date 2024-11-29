@@ -1,8 +1,8 @@
-document.getElementById("meuForm").addEventListener(submit, function (e) {
+document.getElementById("meuForm").addEventListener("submit", function (e) {
   e.preventDefault(); // Impede o envio do formulário
 
   // Captura o valor inserido no campo quantity
-  let quantidade = document.getElementById("quantity").value;
+  let quantidade = parseInt(document.getElementById("quantidade").value);
 
   // Gera um número aleatório entre 1 e 10
   let numeroSorteado = Math.floor(Math.random() * 10) + 1;

@@ -1,0 +1,25 @@
+body {
+    background-image: url(../imagens/montanhasfundo.jpg);
+    background-size: 100%;
+    background-size: cover;
+
+  }
+
+
+h1 {
+    font-family: "Bokor", system-ui, Arial, Helvetica;
+    font-weight: 900;
+    font-size: 100px;
+    color: rgb(25, 88, 19);
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .container-pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
